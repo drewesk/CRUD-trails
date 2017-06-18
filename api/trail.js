@@ -21,7 +21,7 @@ router.get('/:id/resource/', (req, res, next) => {
 });
 
 router.post('/:id/resource/', (req, res, next) => {
-  queries.create(req.body).then((trails)=> {
+  queries.create(req.body).then((trails) => {
     res.json(trails[0]);
   });
 });
