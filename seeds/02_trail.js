@@ -8,7 +8,8 @@ exports.seed = function(knex, Promise) {
         {name: 'apache', rating: 4, length: 2.1, user_id:1},
         {name: 'Yukon', rating: 5, length: 3.1, user_id:2},
         {name: 'Mineral', rating: 1, length: 6.1, user_id:3},
-        {name: 'Platte', rating: 4, length: 5.1, user_id:4}
+        {name: 'Platte', rating: 4, length: 5.1, user_id:4},
+        {name: 'Royal Arch', rating: 5, length: 7.8, user_id:1}
       ]);
     });
 };

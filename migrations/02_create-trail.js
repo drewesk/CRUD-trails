@@ -1,7 +1,7 @@
 
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('trail', (table)=>{
-    table.increments('id').primary();
+    table.increments('id').unsigned().primary();
     table.text('name').notNullable();
     table.integer('rating').notNullable();
     table.float('length').notNullable();
